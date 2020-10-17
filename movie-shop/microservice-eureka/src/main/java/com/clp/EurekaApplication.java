@@ -11,6 +11,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
 @EnableEurekaServer
 public class EurekaApplication {
+	//
 
 	private static Logger logger = LoggerFactory.getLogger(EurekaApplication.class);
 
